@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Your page title here :)</title>
+  <title>Morgenstund | Honig direkt vom Volk</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -15,12 +15,13 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,500,700,800,900" rel="stylesheet">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/main.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -28,17 +29,110 @@
 
 </head>
 <body>
+  <canvas id="canvas1"></canvas>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
-    <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+
+
+    <!-- Home -->
+    <div class="row yellow">
+      <div class="twelve columns">
+        <img src="images/Morgenstund-neg.png" alt="Morgenstund logo" />
       </div>
     </div>
-  </div>
+
+    <div class="row yellow align">
+
+      <div class="seven columns">
+        <nav>
+          <ul>
+            <li><a class="scroll" href="#honig">Der Honig</a></li>
+            <li><a class="scroll" href="#uber">&Uuml;ber uns</a></li>
+            <li><a class="scroll" href="#kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="five columns">
+        <h2>Honig<br>direkt<br>vom Volk.</h2>
+      </div>
+
+    </div>
+
+
+    <!-- Der Honig -->
+    <div class="row" id="honig">
+      <div class="twelve columns">
+        <img src="images/Morgenstund-pos.png" alt="Morgenstund logo" />
+      </div>
+    </div>
+
+    <div class="row align">
+      <div class="seven columns">
+        <p>Bacon ipsum dolor amet sirloin turducken beef ribs, shank hamburger
+        prosciutto salami bacon porchetta tongue pancetta tail corned beef.
+        Leberkas shank brisket bresaola tail. Shankle chuck short ribs bacon
+        meatloaf tongue. Leberkas pork belly salami cupim, picanha strip steak
+        filet mignon flank. Kevin venison filet mignon meatball sirloin. Picanha
+        fatback ball tip hamburger.</p>
+      </div>
+      <div class="five columns">
+        <h2>Der<br>Honig.</h2>
+      </div>
+    </div>
+
+
+    <!-- Uber uns -->
+    <div class="row yellow" id="uber">
+      <div class="twelve columns">
+        <img src="images/Morgenstund-neg.png" alt="Morgenstund logo" />
+      </div>
+    </div>
+
+    <div class="row yellow align">
+      <div class="seven columns">
+        <p>Bacon ipsum dolor amet sirloin turducken beef ribs, shank hamburger
+        prosciutto salami bacon porchetta tongue pancetta tail corned beef.
+        Leberkas shank brisket bresaola tail. Shankle chuck short ribs bacon
+        meatloaf tongue. Leberkas pork belly salami cupim, picanha strip steak
+        filet mignon flank. Kevin venison filet mignon meatball sirloin. Picanha
+        fatback ball tip hamburger.</p>
+      </div>
+      <div class="five columns">
+        <h2>&Uuml;ber<br>uns.</h2>
+      </div>
+    </div>
+
+
+    <!-- Kontakt -->
+    <div class="row" id="kontakt">
+      <div class="twelve columns">
+        <img src="images/Morgenstund-pos.png" alt="Morgenstund logo" />
+      </div>
+    </div>
+
+    <div class="row align">
+      <div class="seven columns">
+        <ul class="contact">
+          <li><strong>Daniel Heinrichs - Bienenherr</strong></li>
+          <li>E-Mail: <a href="mailto:dheinrichs@mailbox.org">dheinrichs@mailbox.org</a></li>
+          <li>Mobil: 0160.5455.703</li>
+        </ul>
+      </div>
+      <div class="five columns">
+        <h2>Kontakt<br>in Neuss.</h2>
+      </div>
+    </div>
+
+
+  </div><!-- end container  -->
+
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/site.js"></script>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

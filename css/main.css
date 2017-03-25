@@ -1,0 +1,126 @@
+html, body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: .01em;
+  line-height: 1em;
+  color: #ffd700;
+  z-index: 999;
+}
+
+img {
+  width: 90px;
+}
+
+
+li {
+  list-style: none;
+  color: #aaa;
+  margin-bottom: 0.2em;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+  a:hover {
+    color: #ccc;
+  }
+
+p {
+  text-transform: none;
+  color: #aaa;
+  margin-right: 6em;
+}
+
+.row {
+  padding: 4em;
+  height: 18em;
+}
+
+.yellow {
+  /* extend background color beyond container */
+  margin: 0 -9995em;
+  /* add back negative margin value */
+  padding: 2em 9999em;
+  background: #ffd700;
+}
+
+  .yellow h2,
+  .yellow p,
+  .yellow li,
+  .yellow a {
+    color: white;
+  }
+
+    .yellow a:hover {
+      color: #aaa;
+    }
+
+.align {
+  display: flex;
+  align-items: flex-end;
+}
+
+nav {
+  font-weight: 700;
+  font-size: 1.2em;
+    position: relative;
+    z-index: 999;
+    xtop: 0;
+}
+
+#canvas1{
+  width: 100vw;
+  height: 100vh;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    /*margin: 0;
+    padding: 0;*/
+}
+
+
+
+
+
+
+  /* Media Queries
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  /*
+  Note: The best way to structure the use of media queries is to create the queries
+  near the relevant code. For example, if you wanted to change the styles for buttons
+  on small devices, paste the mobile query code up in the buttons section and style it
+  there.
+  */
+
+
+  /* Larger than mobile */
+  @media (min-width: 400px) {}
+
+  /* Larger than phablet (also point when grid becomes active) */
+  @media (min-width: 550px) {}
+
+  /* Larger than tablet */
+  @media (min-width: 750px) {}
+
+  /* Larger than desktop */
+  @media (min-width: 1000px) {}
+
+  /* Larger than Desktop HD */
+  @media (min-width: 1200px) {}
