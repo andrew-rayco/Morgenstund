@@ -192,6 +192,11 @@ li:last-child {
 
   /* Larger than tablet */
   @media (min-width: 650px) {
+
+    .container {
+      /*padding-left: 100px;*/
+    }
+
     h2 {
       font-size: 55px;
       margin-bottom: 0;
@@ -293,7 +298,7 @@ li:last-child {
       .honig-img img {
         padding-left: 0;
         margin-left: -15px;
-        width: 75%;
+        width: 60%;
       }
 
     .spacer {
@@ -312,6 +317,10 @@ li:last-child {
 
   /* Larger than Desktop HD */
   @media (min-width: 1200px) {
+    .container {
+      padding-left: 180px;
+    }
+
     h2 {
       font-size: 68px;
     }
